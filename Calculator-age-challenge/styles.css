@@ -1,0 +1,168 @@
+html, body {
+  height: 100%;
+}
+
+body {
+ -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+ * {
+ font-family: 'Poppins', sans-serif;
+}  
+
+
+body {
+  background: hsl(0, 0%, 94%);
+  display: grid;
+  place-content: center;
+}
+.hr {
+  background: hsl(0, 0%, 86%);
+  width: 80%;
+  margin-left: 3rem;
+  height: 1px;
+}
+.container {
+
+  background: white;
+  border-radius: 20px 20px 120px 20px;
+  max-width: 800px;
+  position: relative;
+}
+
+.inner-container {
+  padding: 3rem 14rem 1rem 3rem;
+  background: white;
+  border-radius: 20px 20px 0 0;
+}
+.outer-container {
+  padding: 3rem 14rem 3rem 3rem;
+  background: white;
+  border-radius: 0 0 120px 20px;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 5px 50px 25px;
+  gap: 2rem 5rem;
+}
+
+.form {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 10px;
+  font-size: 27px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.result {
+ font-size: 85px;
+ line-height: 92px;
+ font-style: italic;
+ font-weight: 800;
+}
+::placeholder {
+  color: hsl(0, 1%, 44%);
+  font-size: 27px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.above{
+  color: hsl(0, 1%, 44%);
+  font-size: 15px;
+  
+}
+.submit-button {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background: hsl(259, 100%, 65%);
+  position: absolute;
+  right: 30px;
+  top: 160px;
+  background-image: url("assets/images/icon-arrow.svg");
+  background-size: 54%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.submit-button:hover {
+  background: black;
+}
+
+.empty-field {
+  color: hsl(0, 100%, 67%);
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.write {
+ color: hsl(259, 100%, 65%);
+}
+
+
+
+@media (max-width: 600px) {
+ 
+  .result {
+  font-size: 50px;
+  line-height: 55px;
+}
+  
+ .inner-container {
+  padding: 3rem;
+  border-radius: 20px 20px 0 0;
+}
+.outer-container {
+  padding: 3rem;
+  border-radius: 0 0 80px 20px;
+}
+.container {
+  max-width: 90vwx;
+}
+  
+ .field {
+  grid-auto-rows: 5px 50px 11px;
+  gap: 1rem;
+}
+.empty-field {
+  font-size: 9px;
+}
+  
+.form {
+ width: 40px;
+ font-size: 16px;
+}
+  
+::placeholder {
+ font-size: 14px;
+ padding: 5px;
+}
+  
+.submit-button {
+ width: 70px;
+ height: 70px;
+ right: 170px;
+ top: 160px;
+}
+.above{
+ font-size: 12px; 
+}
+}

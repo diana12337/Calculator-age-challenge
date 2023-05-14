@@ -11,24 +11,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Purple: hsl(259, 100%, 65%)
-- Light red: hsl(0, 100%, 67%)
+- Strong cyan: hsl(172, 67%, 45%)
 
 ### Neutral
 
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
 - White: hsl(0, 0%, 100%)
-- Off white: hsl(0, 0%, 94%)
-- Light grey: hsl(0, 0%, 86%)
-- Smokey grey: hsl(0, 1%, 44%)
-- Off black: hsl(0, 0%, 8%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (inputs): 32px
+- Font size (form inputs): 24px
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400i, 700, 800i
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700
